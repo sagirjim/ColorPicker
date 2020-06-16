@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{653592BE-0F72-EA0E-EFA1-A4DF21C8E3B7}</ProjectGuid>
+    <ProjectGuid>{F7AB824C-7FF3-34E0-698C-2E40C1F825C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -283,7 +283,7 @@
       <HintPath>C:/Users/juan carlos/Desktop/UnityEditor/2019.3.15f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="SmartExplorer">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Assets/Plugins/SmartExplorer.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Assets/Plugins/SmartExplorer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Users/juan carlos/Desktop/UnityEditor/2019.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -646,31 +646,31 @@
       <HintPath>C:/Users/juan carlos/Desktop/UnityEditor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/juan carlos/Desktop/ProjectsUnity/ColorPickFinal/ColorPicker/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
