@@ -49,8 +49,6 @@ public class OutlinePointer : MonoBehaviour
                     prevController = currentController;
                 }
                 
-
-
             }
             
         }

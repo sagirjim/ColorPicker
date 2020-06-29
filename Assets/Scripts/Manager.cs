@@ -17,16 +17,16 @@ public class Manager : MonoBehaviour
 
     private int blockCount;
 
-    Vector3 Pos1F = new Vector3(0, 8, 30);
-    Vector3 Pos2F = new Vector3(-5, 8, 30);
+    Vector3 Pos1F = new Vector3(0, 8, 35);
+    Vector3 Pos2F = new Vector3(-5, 8, 35);
     
 
-    Vector3 Pos1 = new Vector3(0, 3, 30);
-    Vector3 Pos2 = new Vector3(-5, 3, 30);
-    Vector3 Pos3 = new Vector3(0, -2, 30);
-    Vector3 Pos4 = new Vector3(-5, -2, 30);
-    Vector3 Pos5 = new Vector3(0, -7, 30);
-    Vector3 Pos6 = new Vector3(-5, -7, 30);
+    Vector3 Pos1 = new Vector3(0, 3, 35);
+    Vector3 Pos2 = new Vector3(-5, 3, 35);
+    Vector3 Pos3 = new Vector3(0, -2, 35);
+    Vector3 Pos4 = new Vector3(-5, -2, 35);
+    Vector3 Pos5 = new Vector3(0, -7, 35);
+    Vector3 Pos6 = new Vector3(-5, -7, 35);
     /*Vector3 Pos7 = new Vector3(-7, -9, 30);
     Vector3 Pos8 = new Vector3(-2, -9, 30);*/
     // Start is called before the first frame update
@@ -92,7 +92,7 @@ public class Manager : MonoBehaviour
     {
         
         
-        if (blockCount <= 9)
+        if (blockCount <= 7)
         {
             for (i = 2; i <= ColorBlocks.Length; i++)
             {
