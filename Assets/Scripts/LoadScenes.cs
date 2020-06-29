@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class LoadScenes : MonoBehaviour
 {
-    public GameObject imagen;
-    public GameObject colorPicker;
+    
+    public GameObject cuadroColor;
     public GameObject drawColorPickers;
     public GameObject siguiente;
     public GameObject atras;
@@ -20,7 +20,7 @@ public class LoadScenes : MonoBehaviour
 
     public void LoExportScreen()
     {
-        colorPicker.SetActive(false);
+        cuadroColor.SetActive(false);
         drawColorPickers.SetActive(false);
         siguiente.SetActive(false);
         atras.SetActive(false);
@@ -35,7 +35,7 @@ public class LoadScenes : MonoBehaviour
 
     public void LoColorPickScreen()
     {
-        colorPicker.SetActive(true);
+        cuadroColor.SetActive(true);
         drawColorPickers.SetActive(true);
         siguiente.SetActive(true);
         atras.SetActive(true);
@@ -47,10 +47,7 @@ public class LoadScenes : MonoBehaviour
         salir.SetActive(false);
     }
 
-    public void LoImagen()
-    {
-        imagen.SetActive(true);
-    }
+   
 
 
 }
