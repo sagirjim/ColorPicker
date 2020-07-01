@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LoadScenes : MonoBehaviour
 {
+	public GameObject bgPalette;
     public GameObject manager;
     public OutlineController Controller;
     public GameObject highlight;
@@ -24,6 +25,7 @@ public class LoadScenes : MonoBehaviour
     {
         HideOutline();
 
+		bgPalette.SetActive(false);
         manager.SetActive(false);
         cuadroColor.SetActive(false);
         drawColorPickers.SetActive(false);
@@ -40,6 +42,7 @@ public class LoadScenes : MonoBehaviour
 
     public void LoColorPickScreen()
     {
+		bgPalette.SetActive(true);
         manager.SetActive(true);
         cuadroColor.SetActive(true);
         drawColorPickers.SetActive(true);
@@ -56,13 +59,20 @@ public class LoadScenes : MonoBehaviour
     public void HideOutline()
     {
         highlight = GameObject.FindGameObjectWithTag("destructible");
-        Controller = highlight.GetComponent<OutlineController>();
-        if (Controller != null)
-        {
-            Controller.HideOutline();
-            Controller = null;
-        }
+		if (highlight != null)
+		{
+			Controller = highlight.GetComponent<OutlineController>();
+        	if (Controller != null)
+        	{
+            	Controller.HideOutline();
+            	Controller = null;
+        	}
+		}
+        
     }
 
-
+	public void Quit() 
+	{
+		Application.Quit();
+	}
 }

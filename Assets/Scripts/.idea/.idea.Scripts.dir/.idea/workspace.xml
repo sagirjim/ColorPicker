@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/OutlinePointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OutlineController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Explorer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadImage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadScenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CreateImage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/LoadImage.cs" />
         <option value="$PROJECT_DIR$/Manager.cs" />
         <option value="$PROJECT_DIR$/OutlinePointer.cs" />
+        <option value="$PROJECT_DIR$/CreateImage.cs" />
         <option value="$PROJECT_DIR$/LoadScenes.cs" />
       </list>
     </option>
@@ -36,7 +38,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -65,6 +69,8 @@
       <updated>1592511609582</updated>
       <workItem from="1592511666533" duration="1498000" />
       <workItem from="1593429858843" duration="7419000" />
+      <workItem from="1593586828334" duration="286000" />
+      <workItem from="1593590296415" duration="6134000" />
     </task>
     <servers />
   </component>
@@ -91,6 +97,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Inspection_severity/0.0.1366.728@0.0.1366.728" timestamp="1593434096490" />
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593586914175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1593586914175" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1593436152286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

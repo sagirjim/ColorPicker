@@ -2484,7 +2484,6 @@ GameObject:
   - component: {fileID: 1027423102}
   - component: {fileID: 1027423101}
   - component: {fileID: 1027423100}
-  - component: {fileID: 1027423099}
   m_Layer: 5
   m_Name: SalirButton
   m_TagString: Untagged
@@ -2512,31 +2511,6 @@ RectTransform:
   m_AnchoredPosition: {x: 530, y: -300}
   m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1027423099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027423097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70dad03b21e156146bfb7d111a40bb64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  Controller: {fileID: 0}
-  highlight: {fileID: 0}
-  cuadroColor: {fileID: 0}
-  drawColorPickers: {fileID: 0}
-  siguiente: {fileID: 0}
-  atras: {fileID: 0}
-  atras2: {fileID: 0}
-  exportar: {fileID: 0}
-  salir: {fileID: 0}
-  "a\xF1adir": {fileID: 0}
-  borrar: {fileID: 0}
-  insertar: {fileID: 0}
 --- !u!114 &1027423100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2580,8 +2554,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1027423099}
-        m_MethodName: LoExportScreen
+      - m_Target: {fileID: 1432008729}
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3260,6 +3234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70dad03b21e156146bfb7d111a40bb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgPalette: {fileID: 1003697121}
   manager: {fileID: 74948755}
   Controller: {fileID: 0}
   highlight: {fileID: 0}
@@ -3366,6 +3341,7 @@ GameObject:
   - component: {fileID: 1537521866}
   - component: {fileID: 1537521865}
   - component: {fileID: 1537521864}
+  - component: {fileID: 1537521868}
   m_Layer: 5
   m_Name: ExportarButton
   m_TagString: Untagged
@@ -3449,8 +3425,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1537521864}
-        m_MethodName: clickBorrar
+      - m_Target: {fileID: 1537521868}
+        m_MethodName: Take_ScreenShoot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3497,6 +3473,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537521862}
   m_CullTransparentMesh: 0
+--- !u!114 &1537521868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537521862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4cff254cb06624f8c931c26245d232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Save Image
+  Directory: 
+  FileName: New Image
+  Extension: png
 --- !u!1 &1557985492
 GameObject:
   m_ObjectHideFlags: 0
