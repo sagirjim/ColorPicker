@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/ColorPick.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: e94d11de4fcf52840a9003549c1fc632
+  - enabled: 1
+    path: Assets/Scenes/ColorPick.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

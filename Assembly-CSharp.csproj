@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\OutlineController.cs" />
      <Compile Include="Assets\Scripts\OutlinePointer.cs" />
+     <Compile Include="Assets\Scripts\TutorialManager.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Sample\BasicSample.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs" />

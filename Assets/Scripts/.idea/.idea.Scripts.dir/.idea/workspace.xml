@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/Manager.cs" />
         <option value="$PROJECT_DIR$/OutlinePointer.cs" />
         <option value="$PROJECT_DIR$/CreateImage.cs" />
+        <option value="$PROJECT_DIR$/TutorialManager.cs" />
         <option value="$PROJECT_DIR$/LoadScenes.cs" />
       </list>
     </option>
@@ -71,6 +72,7 @@
       <workItem from="1593429858843" duration="7419000" />
       <workItem from="1593586828334" duration="286000" />
       <workItem from="1593590296415" duration="6134000" />
+      <workItem from="1595010836090" duration="1496000" />
     </task>
     <servers />
   </component>
