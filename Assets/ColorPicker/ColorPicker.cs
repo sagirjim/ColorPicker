@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ColorPicker : MonoBehaviour {
+public class ColorPicker : MonoBehaviour
+{
+
+	public Sounds sounds;
 
 	public Texture2D colorSpace;
 	public Texture2D alphaGradient;
@@ -201,6 +204,7 @@ public class ColorPicker : MonoBehaviour {
 		{
 			if(mState == ESTATE.Hidden)
 			{
+				sounds.CromaticoSound();
 				mState = ESTATE.Showing;
 				activeColorPicker = this;
 				dt = 0;

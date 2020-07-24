@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
+    public Sounds sounds;
     public ColorPicker picker;
     public GameObject cambiable;
     public GameObject colorBlock;
@@ -113,7 +114,7 @@ public class Manager : MonoBehaviour
         GameObject destructible = GameObject.FindGameObjectWithTag("destructible");
         if (destructible != null && destructible.layer != 9)
         {
-            
+            sounds.BorrarSound();
             Destroy(destructible);
             blockCount--;
             
