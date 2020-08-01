@@ -15,6 +15,14 @@ ScriptsOnlyBuild:
     - ObjectColor
     - OutlineController
     - OutlinePointer
+    - PaintIn3D.P3dHitScreen
+    - PaintIn3D.P3dMaterialCloner
+    - PaintIn3D.P3dPaintSphere
+    - PaintIn3D.P3dPaintable
+    - PaintIn3D.P3dPaintableManager
+    - PaintIn3D.P3dPaintableTexture
+    - PaintIn3D.P3dRenderingPipeline
+    - Sounds
     - TutorialManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -63,61 +71,128 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11216}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11444}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11638}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 12040}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11912}
     - Class: 114
-      Script: {instanceID: 12214}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12414}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 12432}
+      Script: {instanceID: 12386}
     - Class: 114
-      Script: {instanceID: 12526}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 12618}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12700}
     - Class: 114
-      Script: {instanceID: 12682}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12832}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13140}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 13248}
+    - Class: 114
+      Script: {instanceID: 13314}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Painter.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11198}
+    - Class: 114
+      Script: {instanceID: 11216}
+    - Class: 114
+      Script: {instanceID: 11434}
+    - Class: 114
+      Script: {instanceID: 11686}
+    - Class: 114
+      Script: {instanceID: 11774}
+    - Class: 114
+      Script: {instanceID: 11876}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12240}
+    - Class: 114
+      Script: {instanceID: 13064}
+    - Class: 114
+      Script: {instanceID: 13248}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -148,6 +223,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -155,31 +234,35 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11216}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12414}
+      Script: {instanceID: 12158}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12618}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12682}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 12832}
+      Script: {instanceID: 12584}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13024}
+    - Class: 114
+      Script: {instanceID: 13140}
+    - Class: 114
+      Script: {instanceID: 13248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -197,6 +280,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -221,6 +310,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 0d4c157119b65542ee29a12dd333ac27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintableManager
   - hash:
       serializedVersion: 2
       Hash: 5575ff308b225880ef413c98a822bd48
@@ -289,6 +390,12 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 00273a920624b3639b54e7521511b50d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Sounds
+  - hash:
+      serializedVersion: 2
       Hash: c7ecde418bfc30e392dc3e1f62ae7373
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -305,6 +412,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BasicSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dButtonRedoAll
+  - hash:
+      serializedVersion: 2
+      Hash: 24e0e2df420357c28cf0fa6391176689
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dScatterSpawner
   - hash:
       serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
@@ -355,6 +474,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 516ccb3763a056859ace4e8f1389d628
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintFill
+  - hash:
+      serializedVersion: 2
       Hash: fcf3af6fd15bd3feac9f792a4c2024f1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -371,6 +496,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f5f2051d709274a9fa6298f75087fe9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyTextureRandom
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -397,13 +528,19 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 1e5f46459929a52ed95b05e98dab3f29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dMaterialCloner
+  - hash:
+      serializedVersion: 2
       Hash: 09ff21c9eff7b58d875c5d2cd7a5e91c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OutlineController
   - hash:
       serializedVersion: 2
-      Hash: be928bfd8310ce6e4821c04093d6fbc2
+      Hash: f515d730ee24f9b52a799a19e5b2bb43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Manager
@@ -421,16 +558,40 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: f2fe540e11816998122734eaabae140f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 6cca475539e8c3c85eac55ead4043d71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dColorCounterText
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 9a014a590eac363da78aaaf9214bb5c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintDirectDecal
+  - hash:
+      serializedVersion: 2
       Hash: b5904eebd40b7d1c878f23c55ebcea2d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CanvasSampleOpenFileText
+  - hash:
+      serializedVersion: 2
+      Hash: 3419594fc8375ab3fca94185cfb288c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitNearby
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -443,6 +604,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c86c74d9d652c2ce9e50981bd5b32323
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dBrush
+  - hash:
+      serializedVersion: 2
+      Hash: 2c5f7e54d44bf5f7c2e9e683e59aa283
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitBetween
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -469,16 +642,64 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 1ab346ba8c16c31ed435909fbde28384
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintableTexture
+  - hash:
+      serializedVersion: 2
+      Hash: daaf30b152fcbb0911db69e74c3735a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dColorCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 72672669ab6d45e3ed5be3b06af1ac15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dPaintDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 27462db85ab217895d374526ea2028d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyTexturePressure
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: 61070ca1f91b0352a5ceecf392ec06d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dButtonClearAll
+  - hash:
+      serializedVersion: 2
+      Hash: 49a2014492b4ff47fdb83f8aa2f0eb8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitParticles
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 97458941276b55261cf66d7d7adba4cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModel
+  - hash:
+      serializedVersion: 2
+      Hash: e27b978c0dda8aa1b7f0120bfbebf549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyOpacityRandom
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -493,6 +714,18 @@ ScriptsOnlyBuild:
     className: BotonBorrar
   - hash:
       serializedVersion: 2
+      Hash: f7e20ad024e05187be544ec051d2b2e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dRenderingPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: e27b978c0dda8aa1b7f0120bfbebf549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyRadiusRandom
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -503,6 +736,42 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CanvasSampleOpenFileImage
+  - hash:
+      serializedVersion: 2
+      Hash: e27b978c0dda8aa1b7f0120bfbebf549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyHardnessRandom
+  - hash:
+      serializedVersion: 2
+      Hash: 0cad93c583fba6b52a916a52cf852443
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dChannelCounter
+  - hash:
+      serializedVersion: 2
+      Hash: f2c75947f8ecb3dc2f12f020501d4b7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dDragPitchYaw
+  - hash:
+      serializedVersion: 2
+      Hash: 87a760ecb6d6144b4a6f4f1131c94dd1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintDecal
+  - hash:
+      serializedVersion: 2
+      Hash: ee20d80db0e71b45fa52fb7b04c4606c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dButtonLink
+  - hash:
+      serializedVersion: 2
+      Hash: 4cc37a5eb3ff9054a5ce89d98994acde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintSphere
   - hash:
       serializedVersion: 2
       Hash: fcf3af6fd15bd3feac9f792a4c2024f1
@@ -517,6 +786,18 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 0d4c157119b65542ee29a12dd333ac27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dMeshAnalysis
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -527,6 +808,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 949681575af82c5b39cd54416796944c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintSphereBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dButtonIsolate
   - hash:
       serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
@@ -541,10 +834,28 @@ ScriptsOnlyBuild:
     className: DrawGUIOrderColorPicker
   - hash:
       serializedVersion: 2
+      Hash: e27b978c0dda8aa1b7f0120bfbebf549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyAngleRandom
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0d4c157119b65542ee29a12dd333ac27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 8ff9a8d8590a7fc038bd39767d66d694
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dSpawner
   - hash:
       serializedVersion: 2
       Hash: 9d7742bb0c7626d902b6ade8d11d4fab
@@ -557,6 +868,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 47dcf094450787606d13492d2d1262f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dChannelCounterFill
   - hash:
       serializedVersion: 2
       Hash: c9a8b80298a116835b51ba1cf9284367
@@ -601,10 +918,46 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 237e772a8b7d2e91012891ef56f8a88c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dSeamFixer
+  - hash:
+      serializedVersion: 2
+      Hash: db9fb946ecdd1fbc1265fc06b864d8f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dTapThrow
+  - hash:
+      serializedVersion: 2
+      Hash: b349f6cc93b46de44e0bd4361aabbcb2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dTransformMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dButtonUndoAll
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 89cb1f6dd2d2ec85b97d300f1d93e983
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintReplace
+  - hash:
+      serializedVersion: 2
+      Hash: 66abbdddae95eb18f48d9ba8c6a0af33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitExplosion
   - hash:
       serializedVersion: 2
       Hash: cb680c9770c0fb252dde3a83cfce7179
@@ -613,13 +966,19 @@ ScriptsOnlyBuild:
     className: LoadScenes
   - hash:
       serializedVersion: 2
+      Hash: e0d90b9f699487f667d8984c63854b60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dToggleScript
+  - hash:
+      serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 9499624ac13a40e58c6d40399dc57180
+      Hash: 211dad39194ed436a061e16658bc28ee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ColorPicker
@@ -631,10 +990,28 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
+      Hash: 570221a196cd4f7f04e3e58de61fd494
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintSphereTriplanar
+  - hash:
+      serializedVersion: 2
+      Hash: 391f82ee93b98f6995622c336999d5e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dVrTool
+  - hash:
+      serializedVersion: 2
+      Hash: 25c391c825ebcd0d3d9622edd606cb84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dColor
+  - hash:
+      serializedVersion: 2
+      Hash: 1e55113bd789b512fe82892a7b82382d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dFollow
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -655,10 +1032,34 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 9622d8561e847aa784f09412f49fdd62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dToggleParticles
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 736aa32e083e6fe50397bfc333e0045a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dPaintable
+  - hash:
+      serializedVersion: 2
+      Hash: c1a9f674a0adb63a55de94ca9f956039
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dDestroyAfterTime
+  - hash:
+      serializedVersion: 2
+      Hash: 8830a927aeab3897da8121dcd48b9464
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dVrManager
   - hash:
       serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
@@ -679,6 +1080,12 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 06fae43ab7252d87c7d77afcaaf7a169
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dChannelCounterText
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -689,6 +1096,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 8f38bb36dbeb8db1adfa8c6b244a18a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dRandomlyMove
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -715,6 +1128,12 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: 15d0fda62e3b66e6c38862db9ca2f101
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dDrip
+  - hash:
+      serializedVersion: 2
       Hash: 2aeeec1b1a144c469cd2d37776bc2315
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -725,6 +1144,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CanvasSampleSaveFileText
+  - hash:
+      serializedVersion: 2
+      Hash: 2f5b2728add114685028f820c9db9e40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dCoordCopier
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -739,6 +1164,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: b44104eec8a0423d20e71f50642d24f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dGraduallyFade
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -749,6 +1180,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PSColor
+  - hash:
+      serializedVersion: 2
+      Hash: a1fcc866397a836af63817d24343caca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D.Examples
+    className: P3dDocumentation
   - hash:
       serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
@@ -763,6 +1200,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 03ae18251bb2a8df22f694f3aa64732e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dHitCollisions
+  - hash:
+      serializedVersion: 2
       Hash: 218048bd93e908746781901d78cf0f9b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -773,8 +1216,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e57bfc2c796a337396110d5442789f14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PaintIn3D
+    className: P3dModifyColorRandom
   platform: 5
   scenePathNames:
   - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/ColorPick.unity
+  - Assets/Scenes/Painter.unity
   playerPath: C:/Users/LUISA/Desktop/Builds/ColorPickFinal.exe
