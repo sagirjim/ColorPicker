@@ -172,6 +172,7 @@
      <Compile Include="Assets\Scripts\OutlinePointer.cs" />
      <Compile Include="Assets\Scripts\ShapeChanger.cs" />
      <Compile Include="Assets\Scripts\Sounds.cs" />
+     <Compile Include="Assets\Scripts\SplashTransition.cs" />
      <Compile Include="Assets\Scripts\TutorialManager.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Sample\BasicSample.cs" />

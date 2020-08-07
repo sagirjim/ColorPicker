@@ -20,7 +20,7 @@ public class LoadScenes : MonoBehaviour
     public GameObject añadir;
     public GameObject borrar;
     public GameObject insertar;
-    public GameObject forma;
+    
 
 
     public void LoExportScreen()
@@ -39,7 +39,7 @@ public class LoadScenes : MonoBehaviour
         atras2.SetActive(true);
         exportar.SetActive(true);
         salir.SetActive(true);
-        forma.SetActive(true);
+        
     }
 
 
@@ -57,7 +57,7 @@ public class LoadScenes : MonoBehaviour
         atras2.SetActive(false);
         exportar.SetActive(false);
         salir.SetActive(false);
-        forma.SetActive(false);
+        
     }
 
     public void HideOutline()
