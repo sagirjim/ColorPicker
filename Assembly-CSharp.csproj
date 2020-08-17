@@ -159,6 +159,14 @@
      <Compile Include="Assets\PaintIn3D\Shared\Scripts\P3dShader.cs" />
      <Compile Include="Assets\PaintIn3D\Shared\Scripts\P3dTransform.cs" />
      <Compile Include="Assets\PaintIn3D\Shared\Scripts\P3dTransformMirror.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut1E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut2E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut3E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut4E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut5E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut6E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\Tut7E.cs" />
+     <Compile Include="Assets\Scripts\Animated Tutorial\TutorialAnim.cs" />
      <Compile Include="Assets\Scripts\BotonAnadir.cs" />
      <Compile Include="Assets\Scripts\BotonBorrar.cs" />
      <Compile Include="Assets\Scripts\ColorChanger.cs" />

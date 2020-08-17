@@ -11,17 +11,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/OutlinePointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ColorPicker/ColorPicker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShapeChanger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut3E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sounds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OutlineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut5E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadImage.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SplashTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TutorialManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadScenes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Explorer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CreateImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OutlinePointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OutlineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SplashTransition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut1E.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Explorer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut2E.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut4E.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,6 +44,18 @@
         <option value="$PROJECT_DIR$/Manager.cs" />
         <option value="$PROJECT_DIR$/LoadScenes.cs" />
         <option value="$PROJECT_DIR$/SplashTransition.cs" />
+        <option value="$PROJECT_DIR$/ShapeChanger.cs" />
+        <option value="$PROJECT_DIR$/Tut1E.cs" />
+        <option value="$PROJECT_DIR$/Tut2E.cs" />
+        <option value="$PROJECT_DIR$/TutorialAnim.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut2E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut5E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut1E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut4E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut3E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +104,9 @@
       <workItem from="1595625105738" duration="3074000" />
       <workItem from="1596771539538" duration="1205000" />
       <workItem from="1596802937186" duration="870000" />
+      <workItem from="1597445485327" duration="2105000" />
+      <workItem from="1597522850164" duration="6787000" />
+      <workItem from="1597588986179" duration="11210000" />
     </task>
     <servers />
   </component>

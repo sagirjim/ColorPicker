@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShapeChanger : MonoBehaviour
 {
+    public OutlineController Controller;
+    public GameObject highlight;
     public GameObject cube;
     public GameObject sphere;
     public GameObject[] bloques;
@@ -17,6 +19,8 @@ public class ShapeChanger : MonoBehaviour
 
     public void Forma()
     {
+        HideOutline();
+        
         var cubeMesh = cube.GetComponent<MeshFilter>().mesh;
         var sphereMesh = sphere.GetComponent<MeshFilter>().mesh;
         
@@ -45,6 +49,21 @@ public class ShapeChanger : MonoBehaviour
         {
             estado = true;
         }
+    }
+    
+    public void HideOutline()
+    {
+        highlight = GameObject.FindGameObjectWithTag("destructible");
+        if (highlight != null)
+        {
+            Controller = highlight.GetComponent<OutlineController>();
+            if (Controller != null)
+            {
+                Controller.HideOutline();
+                Controller = null;
+            }
+        }
+        
     }
 
     

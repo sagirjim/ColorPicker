@@ -3669,7 +3669,6 @@ MonoBehaviour:
   "a\xF1adir": {fileID: 243842435}
   borrar: {fileID: 1340543340}
   insertar: {fileID: 575111943}
-  forma: {fileID: 2046354621}
 --- !u!4 &1432008730
 Transform:
   m_ObjectHideFlags: 0
@@ -3696,6 +3695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb09038334ff96c4c961cb5cec893923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Controller: {fileID: 0}
+  highlight: {fileID: 0}
   cube: {fileID: 630541165}
   sphere: {fileID: 34948632}
   bloques: []
@@ -4509,7 +4510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2046354622
 RectTransform:
   m_ObjectHideFlags: 0
