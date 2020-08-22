@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AnimTutorial.unity
+- path: Assets/Scenes/Presentacion.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
