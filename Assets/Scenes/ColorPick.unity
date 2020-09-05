@@ -2812,7 +2812,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432008729}
-        m_MethodName: Quit
+        m_MethodName: painterScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3325,6 +3325,9 @@ MonoBehaviour:
   salir: {fileID: 8300000, guid: ce686d1dca3ef8a4596b6d56a8655cd7, type: 3}
   cromatico: {fileID: 8300000, guid: f46cb53ae2bb4334ba8dd3e02645f30e, type: 3}
   apply: {fileID: 8300000, guid: c0e752e7e9acbb049a853d22d96f44db, type: 3}
+  pencil: {fileID: 0}
+  pincel: {fileID: 0}
+  slide: {fileID: 0}
 --- !u!4 &1358157595
 Transform:
   m_ObjectHideFlags: 0

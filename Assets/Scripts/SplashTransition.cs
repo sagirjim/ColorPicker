@@ -12,7 +12,7 @@ public class SplashTransition : MonoBehaviour
 		tiempo -= Time.deltaTime;
 		if (tiempo <= 0) 
 		{
-			SceneManager.LoadScene("Tutorial");	
+			SceneManager.LoadScene("Presentacion");	
 		}
     
     }

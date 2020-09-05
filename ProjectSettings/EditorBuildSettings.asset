@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash.unity
     guid: 4c83bdceae8dfda4897df3bad14c36b3
   - enabled: 1
+    path: Assets/Scenes/Presentacion.unity
+    guid: 9e27dbc7639dff74eb52480e0896a066
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: e94d11de4fcf52840a9003549c1fc632
+  - enabled: 1
+    path: Assets/Scenes/AnimTutorial.unity
+    guid: 00cd58e5bb9ed4944816c02fca99ebb7
   - enabled: 1
     path: Assets/Scenes/ColorPick.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

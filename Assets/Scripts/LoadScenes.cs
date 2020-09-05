@@ -80,6 +80,11 @@ public class LoadScenes : MonoBehaviour
 		SceneManager.LoadScene("Tutorial");
 	}
 
+	public void painterScene()
+	{
+		SceneManager.LoadScene("Painter");
+	}
+
 	public void Quit() 
 	{
 		Application.Quit();

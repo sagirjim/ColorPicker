@@ -29,7 +29,7 @@ public class ShapeChanger : MonoBehaviour
         {
             for (int i = 0; i <= bloques.Length -1; i++)
             {
-                bloques[i].GetComponent<MeshFilter>().mesh = sphereMesh;
+                bloques[i].GetComponent<MeshFilter>().mesh = cubeMesh;
             }
         }
 
@@ -37,7 +37,7 @@ public class ShapeChanger : MonoBehaviour
         {
             for (int i = 0; i <= bloques.Length -1; i++)
             {
-                bloques[i].GetComponent<MeshFilter>().mesh = cubeMesh;
+                bloques[i].GetComponent<MeshFilter>().mesh = sphereMesh;
             }
         }
 

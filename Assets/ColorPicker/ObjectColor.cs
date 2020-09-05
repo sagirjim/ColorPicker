@@ -3,6 +3,11 @@ using System.Collections;
 
 public class ObjectColor : MonoBehaviour {
 
+	void Start()
+	{
+		DontDestroyOnLoad(gameObject);
+	}
+
 	void OnSetColor(Color color)
 	{
 		Material mt = new Material(GetComponent<Renderer>().sharedMaterial);

@@ -21,14 +21,14 @@ public class ColorPicker : MonoBehaviour
 
 	static ColorPicker activeColorPicker = null;
 
-	enum ESTATE
+	public enum ESTATE
 	{
 		Hidden,
 		Showed,
 		Showing,
 		Hidding
 	}; 
-	ESTATE mState = ESTATE.Hidden;
+	public ESTATE mState = ESTATE.Hidden;
 	
 	int sizeFull = 200;
 	int sizeHidden = 20;
@@ -66,7 +66,7 @@ public class ColorPicker : MonoBehaviour
 
     void Update()
     {
-        receiver = GameObject.FindGameObjectWithTag("destructible");
+        
     }
 
 	void OnGUI()
@@ -123,6 +123,9 @@ public class ColorPicker : MonoBehaviour
 		}
 	}
 
+	public bool myClose;
+
+	public bool myOpen;
 	// Update is called once per frame
 	public void _DrawGUI () 
 	{
@@ -156,6 +159,8 @@ public class ColorPicker : MonoBehaviour
 				{
 					receiver.SendMessage(colorSetFunctionName, SelectedColor, SendMessageOptions.DontRequireReceiver);
 				}
+				mState = ESTATE.Hidding;
+				dt = 0;
 			}
 
 			GUIStyle labelStyleRGBA = new GUIStyle(GUI.skin.label);
@@ -200,6 +205,8 @@ public class ColorPicker : MonoBehaviour
 		bool isLeftMBtnDragging = e.type == EventType.MouseDrag;
 		bool openCondition = (rectFullSize.Contains(e.mousePosition) && (((e.type == EventType.MouseUp || e.type == EventType.MouseDrag || e.type == EventType.MouseMove) && e.isMouse)));
 		bool closeCondition = isLeftMBtnClicked || (!rectFullSize.Contains(e.mousePosition)) && (e.isMouse && (e.type == EventType.MouseMove || e.type == EventType.MouseDown));
+		myOpen = openCondition;
+		myClose = closeCondition;
 		if(openCondition && (activeColorPicker == null || activeColorPicker.mState == ESTATE.Hidden))
 		{
 			if(mState == ESTATE.Hidden)
@@ -223,8 +230,8 @@ public class ColorPicker : MonoBehaviour
 					SetColor(SelectedColor);
 				}
 
-				mState = ESTATE.Hidding;
-				dt = 0;
+				/*mState = ESTATE.Hidding;
+				dt = 0;*/
 			}
 		}
 		if(mState == ESTATE.Showed)
@@ -303,6 +310,7 @@ public class ColorPicker : MonoBehaviour
 
 	public void ApplyColor()
 	{
+		Debug.Log("hola mundo");
 		SelectedColor = TempColor;
 		if(receiver)
 		{

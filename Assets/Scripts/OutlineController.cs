@@ -25,7 +25,9 @@ public class OutlineController : MonoBehaviour
     {
         renderer.material.SetFloat("_Outline", maxOutlineWidth);
         gameObject.tag = "destructible";
-        
+        ColorPicker cp = FindObjectOfType<ColorPicker>();
+        cp.receiver = gameObject;
+
     }
 
     public void HideOutline()

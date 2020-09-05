@@ -39,6 +39,6 @@ public class TutorialManager : MonoBehaviour
 
 	public void IrHerramienta()
 	{
-		SceneManager.LoadScene("ColorPick");
+		SceneManager.LoadScene("AnimTutorial");
 	}
 }

@@ -15,6 +15,9 @@ public class Sounds : MonoBehaviour
 	public AudioClip salir;
 	public AudioClip cromatico;
 	public AudioClip apply;
+	public AudioClip pencil;
+	public AudioClip pincel;
+	public AudioClip slide;
 
 	public void SiguienteSound() 
 	{
@@ -55,5 +58,17 @@ public class Sounds : MonoBehaviour
 	public void ApplySound() 
 	{
 		sonidos.PlayOneShot(apply);
+	}
+	public void PencilSound() 
+	{
+		sonidos.PlayOneShot(pencil);
+	}
+	public void PincelSound() 
+	{
+		sonidos.PlayOneShot(pincel);
+	}
+	public void SlideSound() 
+	{
+		sonidos.PlayOneShot(slide);
 	}
 }

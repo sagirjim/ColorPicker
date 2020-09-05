@@ -12,25 +12,38 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../ColorPicker/ColorPicker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PaintIn3D/Shared/Scripts/P3dPaintSphere.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ColorPicker/ObjectColor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PaintIn3D/InGame/Scripts/P3dPaintableTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/Test2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/Test1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LienzoCP.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/DontDestroy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PresentacionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlockRelocate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut1E.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut2E.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Explorer2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut4E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShapeChanger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut3E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut5E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadImage.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TutorialManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LoadScenes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TutorialManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LoadScenes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ColorChoser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CreateImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OutlinePointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OutlineController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SplashTransition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut1E.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BotonAnadir.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ColorChanger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Explorer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut2E.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut4E.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -38,12 +51,9 @@
         <option value="$PROJECT_DIR$/LoadImage.cs" />
         <option value="$PROJECT_DIR$/OutlinePointer.cs" />
         <option value="$PROJECT_DIR$/CreateImage.cs" />
-        <option value="$PROJECT_DIR$/TutorialManager.cs" />
-        <option value="$PROJECT_DIR$/Sounds.cs" />
         <option value="$PROJECT_DIR$/../ColorPicker/ColorPicker.cs" />
         <option value="$PROJECT_DIR$/Manager.cs" />
         <option value="$PROJECT_DIR$/LoadScenes.cs" />
-        <option value="$PROJECT_DIR$/SplashTransition.cs" />
         <option value="$PROJECT_DIR$/ShapeChanger.cs" />
         <option value="$PROJECT_DIR$/Tut1E.cs" />
         <option value="$PROJECT_DIR$/Tut2E.cs" />
@@ -55,7 +65,20 @@
         <option value="$PROJECT_DIR$/Animated Tutorial/Tut3E.cs" />
         <option value="$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" />
         <option value="$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" />
+        <option value="$PROJECT_DIR$/SplashTransition.cs" />
+        <option value="$PROJECT_DIR$/TutorialManager.cs" />
+        <option value="$PROJECT_DIR$/Sounds.cs" />
         <option value="$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" />
+        <option value="$PROJECT_DIR$/PresentacionManager.cs" />
+        <option value="$PROJECT_DIR$/Explorer.cs" />
+        <option value="$PROJECT_DIR$/../PaintIn3D/InGame/Scripts/P3dPaintableTexture.cs" />
+        <option value="$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/DontDestroy.cs" />
+        <option value="$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/Test1.cs" />
+        <option value="$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/Test2.cs" />
+        <option value="$PROJECT_DIR$/BlockRelocate.cs" />
+        <option value="$PROJECT_DIR$/ColorChoser.cs" />
+        <option value="$PROJECT_DIR$/LienzoCP.cs" />
+        <option value="$PROJECT_DIR$/Explorer2.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +130,10 @@
       <workItem from="1597445485327" duration="2105000" />
       <workItem from="1597522850164" duration="6787000" />
       <workItem from="1597588986179" duration="11210000" />
+      <workItem from="1598146028802" duration="9912000" />
+      <workItem from="1598731086473" duration="6940000" />
+      <workItem from="1599180870570" duration="11798000" />
+      <workItem from="1599264404698" duration="4274000" />
     </task>
     <servers />
   </component>

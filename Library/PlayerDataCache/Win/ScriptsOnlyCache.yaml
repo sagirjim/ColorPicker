@@ -21,9 +21,18 @@ ScriptsOnlyBuild:
     - PaintIn3D.P3dPaintable
     - PaintIn3D.P3dPaintableTexture
     - PaintIn3D.P3dRenderingPipeline
+    - PresentacionManager
     - ShapeChanger
     - Sounds
     - SplashTransition
+    - Tut1E
+    - Tut2E
+    - Tut3E
+    - Tut4E
+    - Tut5E
+    - Tut6E
+    - Tut7E
+    - TutorialAnim
     - TutorialManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -47,6 +56,91 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
   sceneClasses:
+    Assets/Scenes/AnimTutorial.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11198}
+    - Class: 114
+      Script: {instanceID: 11216}
+    - Class: 114
+      Script: {instanceID: 11434}
+    - Class: 114
+      Script: {instanceID: 11442}
+    - Class: 114
+      Script: {instanceID: 11476}
+    - Class: 114
+      Script: {instanceID: 11880}
+    - Class: 114
+      Script: {instanceID: 11896}
+    - Class: 114
+      Script: {instanceID: 12302}
+    - Class: 114
+      Script: {instanceID: 12342}
+    - Class: 114
+      Script: {instanceID: 12396}
+    - Class: 114
+      Script: {instanceID: 12410}
+    - Class: 114
+      Script: {instanceID: 12582}
+    - Class: 114
+      Script: {instanceID: 12632}
+    - Class: 114
+      Script: {instanceID: 12740}
+    - Class: 114
+      Script: {instanceID: 12814}
+    - Class: 114
+      Script: {instanceID: 12898}
+    - Class: 114
+      Script: {instanceID: 13160}
+    - Class: 114
+      Script: {instanceID: 13268}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/ColorPick.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -93,45 +187,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11444}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11594}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11676}
-    - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11678}
     - Class: 114
       Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 11914}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 12336}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12388}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12704}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12836}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13160}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13268}
+    - Class: 114
+      Script: {instanceID: 13334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -184,24 +278,97 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11688}
+      Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 11776}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 12246}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13084}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Presentacion.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11198}
+    - Class: 114
+      Script: {instanceID: 11216}
+    - Class: 114
+      Script: {instanceID: 11434}
+    - Class: 114
+      Script: {instanceID: 11442}
+    - Class: 114
+      Script: {instanceID: 11880}
+    - Class: 114
+      Script: {instanceID: 12342}
+    - Class: 114
+      Script: {instanceID: 12368}
+    - Class: 114
+      Script: {instanceID: 12582}
+    - Class: 114
+      Script: {instanceID: 12814}
+    - Class: 114
+      Script: {instanceID: 13160}
+    - Class: 114
+      Script: {instanceID: 13268}
+    - Class: 114
+      Script: {instanceID: 16218}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -247,21 +414,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12576}
+      Script: {instanceID: 12586}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -310,19 +477,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 12336}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12526}
+      Script: {instanceID: 12536}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13160}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -450,7 +617,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 00273a920624b3639b54e7521511b50d
+      Hash: 30a29eaba7a832d2593d460b14aec9fe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Sounds
@@ -490,6 +657,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 7fd8c6aadc32ce4471cc5e057f7b9d36
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut3E
   - hash:
       serializedVersion: 2
       Hash: 81204891ec94f02f423166470268f971
@@ -582,7 +755,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 7c1b71bb7bb96886c1fb5818a2436d18
+      Hash: 8998793594ea10ac6340ccc04c86aa47
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShapeChanger
@@ -676,6 +849,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D
     className: P3dBrush
+  - hash:
+      serializedVersion: 2
+      Hash: aa91d344b6f9584c9c7decf67abff320
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut6E
   - hash:
       serializedVersion: 2
       Hash: 2c5f7e54d44bf5f7c2e9e683e59aa283
@@ -858,6 +1037,12 @@ ScriptsOnlyBuild:
     className: P3dDestroyer
   - hash:
       serializedVersion: 2
+      Hash: de3ca8853ea978d38f196b121581ecb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut1E
+  - hash:
+      serializedVersion: 2
       Hash: 0d4c157119b65542ee29a12dd333ac27
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D
@@ -898,6 +1083,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DrawGUIOrderColorPicker
+  - hash:
+      serializedVersion: 2
+      Hash: fd1d222f704bda0ef9dc0b13cd6baf95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut7E
+  - hash:
+      serializedVersion: 2
+      Hash: dae3cd45e08e3b934de47225044df5b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut5E
   - hash:
       serializedVersion: 2
       Hash: e27b978c0dda8aa1b7f0120bfbebf549
@@ -996,6 +1193,12 @@ ScriptsOnlyBuild:
     className: P3dSeamFixer
   - hash:
       serializedVersion: 2
+      Hash: e5b60ab63176c35c7f978e9f21f42640
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TutorialAnim
+  - hash:
+      serializedVersion: 2
       Hash: db9fb946ecdd1fbc1265fc06b864d8f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D
@@ -1038,6 +1241,12 @@ ScriptsOnlyBuild:
     className: LoadScenes
   - hash:
       serializedVersion: 2
+      Hash: 19d7fa15946560cbba98eb1b5e7fa7a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut4E
+  - hash:
+      serializedVersion: 2
       Hash: e0d90b9f699487f667d8984c63854b60
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D.Examples
@@ -1078,6 +1287,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D.Examples
     className: P3dColor
+  - hash:
+      serializedVersion: 2
+      Hash: 44a51f3d646b17aec840df408f545167
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tut2E
   - hash:
       serializedVersion: 2
       Hash: 1e55113bd789b512fe82892a7b82382d
@@ -1294,10 +1509,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: PaintIn3D
     className: P3dModifyColorRandom
+  - hash:
+      serializedVersion: 2
+      Hash: 6f2b6515c0a8abb290fa96d391cfdec9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PresentacionManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/Splash.unity
+  - Assets/Scenes/Presentacion.unity
   - Assets/Scenes/Tutorial.unity
+  - Assets/Scenes/AnimTutorial.unity
   - Assets/Scenes/ColorPick.unity
   - Assets/Scenes/Painter.unity
   playerPath: C:/Users/LUISA/Desktop/Builds/ColorPickFinal.exe
