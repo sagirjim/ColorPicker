@@ -8,6 +8,7 @@ public class TutorialManager : MonoBehaviour
    public GameObject tutorial1;
    public GameObject tutorial2;
    public GameObject tutorial3;
+   public Transitions transition;
    
    void start() 
    {
@@ -39,6 +40,6 @@ public class TutorialManager : MonoBehaviour
 
 	public void IrHerramienta()
 	{
-		SceneManager.LoadScene("AnimTutorial");
+		transition.TransitionAn(3);
 	}
 }

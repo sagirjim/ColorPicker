@@ -19,6 +19,10 @@ public class PresentacionManager : MonoBehaviour
     public GameObject picker;
     public GameObject lienzo;
     public GameObject salir;
+	public Transitions sceneChanger;
+    
+    
+    
     
 	void Start()
 	{
@@ -61,17 +65,12 @@ public class PresentacionManager : MonoBehaviour
 
 	public void irTutorial()
 	{
-		SceneManager.LoadScene("Tutorial");	
+		sceneChanger.TransitionAn(2);
 	}
 
 	public void irColorPick()
 	{
-		SceneManager.LoadScene("ColorPick");	
-	}
-
-	public void irLienzo()
-	{
-	
+		sceneChanger.TransitionAn(4);
 	}
 
 	public void exit()

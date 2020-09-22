@@ -19,18 +19,20 @@
     <setting file="file://$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/Test1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LienzoCP.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/DontDestroy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Transitions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PresentacionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlockRelocate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PincelsControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut1E.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut2E.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Explorer2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Explorer2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut4E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShapeChanger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut3E.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut5E.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Manager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadImage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TutorialManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -38,11 +40,13 @@
     <setting file="file://$PROJECT_DIR$/LoadScenes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ColorChoser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CreateImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Explorer3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OutlinePointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OutlineController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SplashTransition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BotonAnadir.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ColorChanger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PaintIn3D/Shared/Scripts/P3dPaintSphereTriplanar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Explorer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,7 +57,6 @@
         <option value="$PROJECT_DIR$/CreateImage.cs" />
         <option value="$PROJECT_DIR$/../ColorPicker/ColorPicker.cs" />
         <option value="$PROJECT_DIR$/Manager.cs" />
-        <option value="$PROJECT_DIR$/LoadScenes.cs" />
         <option value="$PROJECT_DIR$/ShapeChanger.cs" />
         <option value="$PROJECT_DIR$/Tut1E.cs" />
         <option value="$PROJECT_DIR$/Tut2E.cs" />
@@ -66,10 +69,7 @@
         <option value="$PROJECT_DIR$/Animated Tutorial/Tut7E.cs" />
         <option value="$PROJECT_DIR$/Animated Tutorial/Tut6E.cs" />
         <option value="$PROJECT_DIR$/SplashTransition.cs" />
-        <option value="$PROJECT_DIR$/TutorialManager.cs" />
         <option value="$PROJECT_DIR$/Sounds.cs" />
-        <option value="$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" />
-        <option value="$PROJECT_DIR$/PresentacionManager.cs" />
         <option value="$PROJECT_DIR$/Explorer.cs" />
         <option value="$PROJECT_DIR$/../PaintIn3D/InGame/Scripts/P3dPaintableTexture.cs" />
         <option value="$PROJECT_DIR$/../../../paint/New Unity Project/Assets/Scripts/DontDestroy.cs" />
@@ -78,7 +78,16 @@
         <option value="$PROJECT_DIR$/BlockRelocate.cs" />
         <option value="$PROJECT_DIR$/ColorChoser.cs" />
         <option value="$PROJECT_DIR$/LienzoCP.cs" />
+        <option value="$PROJECT_DIR$/PincelsControl.cs" />
+        <option value="$PROJECT_DIR$/../PaintIn3D/Shared/Scripts/P3dPaintSphereTriplanar.cs" />
+        <option value="$PROJECT_DIR$/Explorer3.cs" />
         <option value="$PROJECT_DIR$/Explorer2.cs" />
+        <option value="$PROJECT_DIR$/Transitions.cs" />
+        <option value="$PROJECT_DIR$/PresentacionManager.cs" />
+        <option value="$PROJECT_DIR$/../Transitions.cs" />
+        <option value="$PROJECT_DIR$/TutorialManager.cs" />
+        <option value="$PROJECT_DIR$/Animated Tutorial/TutorialAnim.cs" />
+        <option value="$PROJECT_DIR$/LoadScenes.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +143,11 @@
       <workItem from="1598731086473" duration="6940000" />
       <workItem from="1599180870570" duration="11798000" />
       <workItem from="1599264404698" duration="4274000" />
+      <workItem from="1599382346787" duration="709000" />
+      <workItem from="1599819333526" duration="5766000" />
+      <workItem from="1600150785160" duration="1923000" />
+      <workItem from="1600339911908" duration="2182000" />
+      <workItem from="1600342656247" duration="7077000" />
     </task>
     <servers />
   </component>

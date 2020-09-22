@@ -175,12 +175,14 @@
      <Compile Include="Assets\Scripts\CreateImage.cs" />
      <Compile Include="Assets\Scripts\Explorer.cs" />
      <Compile Include="Assets\Scripts\Explorer2.cs" />
+     <Compile Include="Assets\Scripts\Explorer3.cs" />
      <Compile Include="Assets\Scripts\LienzoCP.cs" />
      <Compile Include="Assets\Scripts\LoadImage.cs" />
      <Compile Include="Assets\Scripts\LoadScenes.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\OutlineController.cs" />
      <Compile Include="Assets\Scripts\OutlinePointer.cs" />
+     <Compile Include="Assets\Scripts\PincelsControl.cs" />
      <Compile Include="Assets\Scripts\PresentacionManager.cs" />
      <Compile Include="Assets\Scripts\ShapeChanger.cs" />
      <Compile Include="Assets\Scripts\Sounds.cs" />
@@ -198,6 +200,7 @@
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Usar\CreataImage.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Usar\SimpleRotate.cs" />
+     <Compile Include="Assets\Transitions.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\PaintIn3D\InGame\Examples\Shaders\P3D Skybox.shader" />

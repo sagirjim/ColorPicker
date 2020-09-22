@@ -12,6 +12,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/P3dPaintableManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/P3dPaintableTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Scripts/Explorer2.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/P3dPaintableTexture.cs" />
+        <option value="$PROJECT_DIR$/../../../Scripts/Explorer2.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1gkpqArqemQEQBCGm4Vb1DkZDPG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,20 +59,25 @@
       <option name="presentableId" value="Default" />
       <updated>1598668644480</updated>
       <workItem from="1598668695816" duration="1202000" />
+      <workItem from="1599441239655" duration="666000" />
+      <workItem from="1600149073463" duration="1254000" />
+      <workItem from="1600751870583" duration="1160000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

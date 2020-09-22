@@ -14,6 +14,7 @@ public class TutorialAnim : MonoBehaviour
 	public GameObject siguiente3;
 	public GameObject comenzar;
 	public int estado;
+	public Transitions transition;
 	
 
 
@@ -96,6 +97,6 @@ public class TutorialAnim : MonoBehaviour
 
 	public void irColorPick()
 	{
-		SceneManager.LoadScene("ColorPick");
+		transition.TransitionAn(4);
 	}
 }

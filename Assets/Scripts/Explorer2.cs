@@ -47,9 +47,11 @@ public class Explorer2 : MonoBehaviour
     void OpenImage(string path)
     {
         WWW www = new WWW("file:///" + path);
-        newTexture.Texture = www.texture;
-        /*eImage.GetComponent<Renderer>().material.mainTexture = www.texture;*/
+        newTexture.Texture = www.texture;    
+        
     }
+
+
 
 
 

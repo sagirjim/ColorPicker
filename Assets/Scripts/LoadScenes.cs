@@ -20,6 +20,8 @@ public class LoadScenes : MonoBehaviour
     public GameObject añadir;
     public GameObject borrar;
     public GameObject insertar;
+    public GameObject lienzo;
+    public Transitions transition;
     
 
 
@@ -39,6 +41,8 @@ public class LoadScenes : MonoBehaviour
         atras2.SetActive(true);
         exportar.SetActive(true);
         salir.SetActive(true);
+        lienzo.SetActive(true);
+        
         
     }
 
@@ -57,6 +61,7 @@ public class LoadScenes : MonoBehaviour
         atras2.SetActive(false);
         exportar.SetActive(false);
         salir.SetActive(false);
+        lienzo.SetActive(false);
         
     }
 
@@ -77,12 +82,12 @@ public class LoadScenes : MonoBehaviour
 
 	public void VolverTutorial()
 	{
-		SceneManager.LoadScene("Tutorial");
+		transition.TransitionAn(3);
 	}
 
 	public void painterScene()
 	{
-		SceneManager.LoadScene("Painter");
+		transition.TransitionAn(5);
 	}
 
 	public void Quit() 

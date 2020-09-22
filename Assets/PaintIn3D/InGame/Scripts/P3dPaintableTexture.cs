@@ -7,8 +7,7 @@ using UnityEditor;
 
 namespace PaintIn3D
 {
-	/// <summary>This component allows you to make one texture on the attached Renderer paintable.
-	/// NOTE: If the texture or texture slot you want to paint is part of a shared material (e.g. prefab material), then I recommend you add the P3dMaterialCloner component to make it unique.</summary>
+	
 	[RequireComponent(typeof(Renderer))]
 	[RequireComponent(typeof(P3dPaintable))]
 	[HelpURL(P3dHelper.HelpUrlPrefix + "P3dPaintableTexture")]

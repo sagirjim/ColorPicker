@@ -587,6 +587,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246669310}
   m_CullTransparentMesh: 0
+--- !u!1001 &269350099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 923399915}
+    m_Modifications:
+    - target: {fileID: 1071123423978866612, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304785281666859484, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -221.7025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308110898260337824, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b559a67aa2c70d47a7be460985ea4fd, type: 3}
 --- !u!1 &329566561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,6 +1492,7 @@ RectTransform:
   - {fileID: 494758375}
   - {fileID: 163051465}
   - {fileID: 931061141}
+  - {fileID: 1314105623}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2088,6 +2163,24 @@ MonoBehaviour:
   tiempo: 0.75
   thiss: {fileID: 1233237057}
   tut3E: {fileID: 7400000, guid: f2bb975eefab5ce4a843fbd178e56911, type: 2}
+--- !u!114 &1314105621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7066673748221128022, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 269350099}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe913d221fc2c744bbdb5e81abab1ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1314105623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1304785281666859484, guid: 2b559a67aa2c70d47a7be460985ea4fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 269350099}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1344157794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,6 +2233,7 @@ MonoBehaviour:
   siguiente3: {fileID: 163051464}
   comenzar: {fileID: 931061140}
   estado: 0
+  transition: {fileID: 1314105621}
 --- !u!1 &1478462356
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ namespace PaintIn3D
 			public float    Opacity;
 			public float    Hardness;
 			public float    Squash;
-			private Texture Texture;
+			public Texture Texture;
 			private float   Strength;
 			private float   Tiling;
 
@@ -154,7 +154,7 @@ namespace PaintIn3D
 		public P3dBlendMode BlendMode { set { blendMode = value; } get { return blendMode; } } [SerializeField] private P3dBlendMode blendMode = P3dBlendMode.AlphaBlend;
 
 		/// <summary>The decal that will be painted.</summary>
-		public Texture Texture { set { texture = value; } get { return texture; } } [SerializeField] private Texture texture;
+		public Texture Texture { set { texture = value; } get { return texture; } } [SerializeField] public Texture texture;
 
 		/// <summary>The higher you set this, the more the pixels in the texture will be shifted toward white.</summary>
 		public float Strength { set { strength = value; } get { return strength; } } [SerializeField] private float strength = 1.0f;
